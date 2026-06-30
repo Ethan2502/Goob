@@ -1460,6 +1460,12 @@
 		(color 0 0 0 0)
 		(uuid "3a64b477-394e-4a2b-8547-e53186b1b440")
 	)
+	(junction
+		(at 74.93 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ecb9bc4-235d-4ca6-88b5-78867d5e2df9")
+	)
 	(no_connect
 		(at 74.93 41.91)
 		(uuid "2bda3f65-b780-4fe3-9254-99e92aa5cc8f")
@@ -1827,6 +1833,84 @@
 			(project "Xiao"
 				(path "/9ff8afc2-9108-419e-b7f8-41cc2446086c"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 74.93 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "414ac16a-74c2-4ce0-87cd-122d3a658cf5")
+		(property "Reference" "#FLG02"
+			(at 74.93 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 74.93 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 74.93 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab5fcffd-2ba7-4554-bb40-f3723f0ecaee")
+		)
+		(instances
+			(project "Xiao"
+				(path "/9ff8afc2-9108-419e-b7f8-41cc2446086c"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
