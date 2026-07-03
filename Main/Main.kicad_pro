@@ -594,6 +594,10 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "+5V"
       }
     ]
   },
@@ -731,7 +735,7 @@
   "sheets": [
     [
       "7e26015a-4e17-4699-9192-05965a8144b2",
-      "Root"
+      "Main"
     ]
   ],
   "text_variables": {},
