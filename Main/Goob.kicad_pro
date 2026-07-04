@@ -53,13 +53,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -130,11 +124,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -142,10 +136,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.15,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -193,9 +187,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -222,12 +214,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -485,14 +472,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Main.kicad_pro",
+    "filename": "Goob.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -503,66 +490,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.25,
-        "name": "+3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.25,
-        "name": "+5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.25,
-        "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.25,
-        "name": "Motor",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -570,44 +502,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "I2C_SDA, I2C_SCL, TOF_XSHUT, VISION_TX, VISION_RX, EN, IO0, FLY_A_TACH, FLY_B_TACH, FLY_A_PWM, FLY_B_PWM,SERVO_PAN,SERVO_TILT,SERVO_GATE"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "USB_D+"
-      },
-      {
-        "netclass": "+3V3",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "+5V",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "Motor",
-        "pattern": "Motor*"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "+5V",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "+5V",
-        "pattern": "VM"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "USB_D−"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -732,18 +627,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Main.kicad_sch",
-        "name": "Main",
+        "filename": "Goob.kicad_sch",
+        "name": "Root",
         "uuid": "7e26015a-4e17-4699-9192-05965a8144b2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J10,J12,#PWR17-18,#PWR49-58,D1,R10-11,C14-16",
     "variants": []
   },
   "sheets": [
     [
       "7e26015a-4e17-4699-9192-05965a8144b2",
-      "Main"
+      "Root"
     ]
   ],
   "text_variables": {},

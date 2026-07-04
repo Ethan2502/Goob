@@ -4532,7 +4532,7 @@
 		(uuid "9bb13024-bf7e-449a-bfda-a97297e8003c")
 	)
 	(junction
-		(at 29.21 116.84)
+		(at 34.29 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba86b387-89de-4ddf-a7a9-5dc17966d1e8")
@@ -5187,7 +5187,7 @@
 			)
 		)
 	)
-	(global_label "USB_D-"
+	(global_label "USB_D−"
 		(shape input)
 		(at 63.5 156.21 0)
 		(fields_autoplaced yes)
@@ -6099,7 +6099,7 @@
 			)
 		)
 	)
-	(global_label "USB_D-"
+	(global_label "USB_D−"
 		(shape input)
 		(at 58.42 49.53 0)
 		(fields_autoplaced yes)
@@ -6123,7 +6123,7 @@
 			)
 		)
 	)
-	(global_label "USB_D-"
+	(global_label "USB_D−"
 		(shape input)
 		(at 63.5 158.75 0)
 		(fields_autoplaced yes)
@@ -6314,7 +6314,7 @@
 			(uuid "37e8ccfc-bf57-4fa5-b998-024e3667e7ad")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR056")
 					(unit 1)
@@ -6392,7 +6392,7 @@
 			(uuid "914f5208-591e-4743-826c-b910dedf9c16")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR050")
 					(unit 1)
@@ -6472,7 +6472,7 @@
 			(uuid "7216a7f8-2912-4d5c-b2f2-388948668cbd")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C6")
 					(unit 1)
@@ -6482,7 +6482,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 124.46 0)
+		(at 41.91 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6493,7 +6493,7 @@
 		(fields_autoplaced yes)
 		(uuid "069e95f9-8e0e-4cf9-99ef-18e6c7605e74")
 		(property "Reference" "#PWR013"
-			(at 36.83 130.81 0)
+			(at 41.91 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6504,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 129.54 0)
+			(at 41.91 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6514,7 +6514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 124.46 0)
+			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6525,7 +6525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 124.46 0)
+			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6536,7 +6536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 124.46 0)
+			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6550,7 +6550,7 @@
 			(uuid "84b95b12-8452-4399-a8dd-4b9cd5ce19a6")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR013")
 					(unit 1)
@@ -6629,7 +6629,7 @@
 			(uuid "97d47469-5911-411e-bafb-bbe3c61a55f7")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR041")
 					(unit 1)
@@ -6708,7 +6708,7 @@
 			(uuid "f4be8b60-1ec8-461f-b2d2-80acabb4fe5e")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR038")
 					(unit 1)
@@ -6787,7 +6787,7 @@
 			(uuid "d0ffa497-e1e7-40c7-9b35-d2b3354d8b1f")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR026")
 					(unit 1)
@@ -6866,7 +6866,7 @@
 			(uuid "f2ff8ca8-6980-46c1-bc71-a379130c9d37")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR029")
 					(unit 1)
@@ -6876,7 +6876,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 29.21 116.84 0)
+		(at 34.29 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6884,9 +6884,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0f195e50-90f6-42b9-8b8d-ef68043f1714")
 		(property "Reference" "#FLG02"
-			(at 29.21 114.935 0)
+			(at 34.29 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6897,7 +6898,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 111.506 0)
+			(at 34.29 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6907,7 +6908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 116.84 0)
+			(at 34.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6918,7 +6919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 116.84 0)
+			(at 34.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6929,7 +6930,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 116.84 0)
+			(at 34.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6943,7 +6944,7 @@
 			(uuid "149201d4-f8d3-4fd5-80a7-b1f6e1331a69")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#FLG02")
 					(unit 1)
@@ -7023,7 +7024,7 @@
 			(uuid "40e127d1-4da9-45ac-8a04-ba9f079a9da0")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C7")
 					(unit 1)
@@ -7102,7 +7103,7 @@
 			(uuid "1492049c-870b-46b6-8616-122e7772d329")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR03")
 					(unit 1)
@@ -7181,7 +7182,7 @@
 			(uuid "c679cd94-3904-4f53-bb01-a07b684b7bd7")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR042")
 					(unit 1)
@@ -7266,7 +7267,7 @@
 			(uuid "638acfe8-0567-47f6-a43a-c9d0d1726123")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J3")
 					(unit 1)
@@ -7344,7 +7345,7 @@
 			(uuid "641dfb95-f87e-457f-b54b-a4f4ac78feca")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR017")
 					(unit 1)
@@ -7425,7 +7426,7 @@
 			(uuid "1eef17c6-e57e-4335-96b5-2eae87f75570")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C11")
 					(unit 1)
@@ -7504,7 +7505,7 @@
 			(uuid "1169dfbe-52a3-4cb3-82cf-8b3c813cb89d")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR040")
 					(unit 1)
@@ -7584,7 +7585,7 @@
 			(uuid "91f7aa67-65c1-4352-bc8d-96d9271592e5")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R2")
 					(unit 1)
@@ -7663,7 +7664,7 @@
 			(uuid "32652854-c377-46be-8cb7-9c0c90951cdd")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R10")
 					(unit 1)
@@ -7741,7 +7742,7 @@
 			(uuid "bc7d161f-6e0a-443a-b2f1-6e4f352cec06")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR05")
 					(unit 1)
@@ -7819,7 +7820,7 @@
 			(uuid "e4cc3c17-628f-4e10-ba4a-94a784b1048f")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR020")
 					(unit 1)
@@ -7899,7 +7900,7 @@
 			(uuid "22750a13-4766-45f6-8077-5373aed3da9b")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R1")
 					(unit 1)
@@ -8028,7 +8029,7 @@
 			(uuid "38eea0ab-30f3-4df4-b214-d299e20141bb")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "U2")
 					(unit 1)
@@ -8107,7 +8108,7 @@
 			(uuid "ebab6d8e-fe2d-4bae-8a72-792dcea7962d")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR07")
 					(unit 1)
@@ -8185,7 +8186,7 @@
 			(uuid "05d7fa40-975f-423e-be36-5fb1cbc14c4f")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR021")
 					(unit 1)
@@ -8267,7 +8268,7 @@
 			(uuid "8dcbf05f-65f3-47e9-9054-a3897e7300ab")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J7")
 					(unit 1)
@@ -8352,7 +8353,7 @@
 			(uuid "20924b0e-6eae-4892-9a17-06ca86bea3b6")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J4")
 					(unit 1)
@@ -8430,7 +8431,7 @@
 			(uuid "34e3c465-e3ba-4e0f-b4c9-0806a41bb47c")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR046")
 					(unit 1)
@@ -8509,7 +8510,7 @@
 			(uuid "375955ef-40d0-4070-92c0-529946cd9e3d")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#FLG03")
 					(unit 1)
@@ -8589,7 +8590,7 @@
 			(uuid "c9f16cdd-e2a4-4514-8b0f-ea3a00420afa")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R4")
 					(unit 1)
@@ -8668,7 +8669,7 @@
 			(uuid "2c808583-c73e-4d6a-b7d6-8e672a9b50b9")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR031")
 					(unit 1)
@@ -8747,7 +8748,7 @@
 			(uuid "fd4957ae-62a9-42c7-bef8-2cae2e5aa2b1")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R11")
 					(unit 1)
@@ -8825,7 +8826,7 @@
 			(uuid "40506738-e6d5-465e-b525-da16d6fe5112")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR049")
 					(unit 1)
@@ -8904,7 +8905,7 @@
 			(uuid "79a1bd28-ddeb-4d3a-a2a3-a1f168718d8f")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR036")
 					(unit 1)
@@ -8914,7 +8915,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 53.34 106.68 270)
+		(at 58.42 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8925,7 +8926,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bb33872-427a-4a47-a95f-25ed188434e1")
 		(property "Reference" "#PWR033"
-			(at 49.53 106.68 0)
+			(at 62.23 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8936,7 +8937,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 57.15 106.68 90)
+			(at 54.61 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8947,7 +8948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 106.68 0)
+			(at 58.42 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,7 +8959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 106.68 0)
+			(at 58.42 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8969,7 +8970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 53.34 106.68 0)
+			(at 58.42 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8983,7 +8984,7 @@
 			(uuid "ad275530-0a6b-4bb2-961a-bc8d1b8ba501")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR033")
 					(unit 1)
@@ -9063,7 +9064,7 @@
 			(uuid "d446cf55-c436-4229-82e0-2c4c198083fb")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "D1")
 					(unit 1)
@@ -9143,7 +9144,7 @@
 			(uuid "ae0d7ec8-0ca6-41c4-9342-adaa8c096351")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C8")
 					(unit 1)
@@ -9222,7 +9223,7 @@
 			(uuid "bb80f159-04f2-480f-abd1-245632892833")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR043")
 					(unit 1)
@@ -9304,7 +9305,7 @@
 			(uuid "ffbbaee7-e637-4d02-a302-ef58fd816ee4")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R9")
 					(unit 1)
@@ -9314,7 +9315,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 36.83 116.84 0)
+		(at 41.91 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9325,7 +9326,7 @@
 		(fields_autoplaced yes)
 		(uuid "59d0f293-4b9d-4d96-8553-8c25062348d3")
 		(property "Reference" "U3"
-			(at 36.83 110.49 0)
+			(at 41.91 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9335,7 +9336,7 @@
 			)
 		)
 		(property "Value" "3.3V Reg"
-			(at 36.83 113.03 0)
+			(at 41.91 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9345,7 +9346,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 36.83 111.76 0)
+			(at 41.91 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9356,7 +9357,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 39.37 123.19 0)
+			(at 44.45 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,7 +9368,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 36.83 116.84 0)
+			(at 41.91 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9387,7 +9388,7 @@
 			(uuid "5282cd99-8a3c-41c2-a669-89a293fa010c")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "U3")
 					(unit 1)
@@ -9466,7 +9467,7 @@
 			(uuid "8cdbb9f5-bccd-4712-ae5c-0330acf9c0d7")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR054")
 					(unit 1)
@@ -9545,7 +9546,7 @@
 			(uuid "16e9249b-cfca-4aef-8e8c-3e364c26c760")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#FLG01")
 					(unit 1)
@@ -9627,7 +9628,7 @@
 			(uuid "03ab7dfa-f7ba-46f7-aa4d-e511c5557e02")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J8")
 					(unit 1)
@@ -9705,7 +9706,7 @@
 			(uuid "54aa1dc7-6202-444a-92f6-9cd32b8ae61e")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR047")
 					(unit 1)
@@ -9784,7 +9785,7 @@
 			(uuid "2cbfec3b-d580-43d5-879c-44e4c7ae52fe")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR051")
 					(unit 1)
@@ -9864,7 +9865,7 @@
 			(uuid "933ebfed-6de6-4e0b-8216-950cbacc41ab")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R5")
 					(unit 1)
@@ -9944,7 +9945,7 @@
 			(uuid "951494f3-8b32-4b0c-96c0-b9feb3570787")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C4")
 					(unit 1)
@@ -10023,7 +10024,7 @@
 			(uuid "963730a5-0908-42fc-92a4-1bbcf48b7694")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR037")
 					(unit 1)
@@ -10033,7 +10034,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 106.68 90)
+		(at 33.02 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10043,7 +10044,7 @@
 		(dnp no)
 		(uuid "6ccf41cb-16aa-4b0b-aefb-ea4c2302db69")
 		(property "Reference" "#PWR011"
-			(at 34.29 106.68 0)
+			(at 39.37 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10054,7 +10055,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 106.68 90)
+			(at 38.1 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10064,7 +10065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 106.68 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10075,7 +10076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 106.68 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10086,7 +10087,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 106.68 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10100,7 +10101,7 @@
 			(uuid "f5376630-e471-4b47-bcbc-ba853a297118")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR011")
 					(unit 1)
@@ -10178,7 +10179,7 @@
 			(uuid "13818fdc-1834-4644-996a-938970f3b5b1")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR058")
 					(unit 1)
@@ -10257,7 +10258,7 @@
 			(uuid "9b85a472-aebc-4caa-bacf-1394d2657935")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR053")
 					(unit 1)
@@ -10335,7 +10336,7 @@
 			(uuid "ca70900d-d7cb-43c3-a11b-f19c7e1ba6f1")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR030")
 					(unit 1)
@@ -10345,7 +10346,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 106.68 270)
+		(at 54.61 109.22 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10355,7 +10356,7 @@
 		(dnp no)
 		(uuid "6fdff9dc-4a67-4d6b-910c-7521eef99e6e")
 		(property "Reference" "C10"
-			(at 46.5455 100.2665 90)
+			(at 51.6255 102.8065 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10366,7 +10367,7 @@
 			)
 		)
 		(property "Value" "22µF"
-			(at 46.5455 102.8065 90)
+			(at 51.6255 105.3465 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10377,7 +10378,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 45.72 107.6452 0)
+			(at 50.8 110.1852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10388,7 +10389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 106.68 0)
+			(at 54.61 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10399,7 +10400,7 @@
 			)
 		)
 		(property "Description" "3V3 Reg"
-			(at 49.53 106.68 0)
+			(at 54.61 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10416,7 +10417,7 @@
 			(uuid "2da7eb03-9061-4d16-92e6-4baa638dbf53")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C10")
 					(unit 1)
@@ -10495,7 +10496,7 @@
 			(uuid "2c3033a1-ec6a-49eb-8d96-f9f820ac8c2b")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R7")
 					(unit 1)
@@ -10577,7 +10578,7 @@
 			(uuid "5a94a65e-aec7-4a5a-aa56-1f108af4eaa4")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J6")
 					(unit 1)
@@ -10656,7 +10657,7 @@
 			(uuid "afb92bae-8430-42d6-afe5-2824ceac75d1")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R6")
 					(unit 1)
@@ -10735,7 +10736,7 @@
 			(uuid "103cb459-78c6-4721-980b-2844a47616f0")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR044")
 					(unit 1)
@@ -10745,7 +10746,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 24.13 106.68 90)
+		(at 29.21 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10755,7 +10756,7 @@
 		(dnp no)
 		(uuid "7da434aa-008b-4928-bdc2-e718f7c8b1a2")
 		(property "Reference" "C9"
-			(at 22.733 100.203 90)
+			(at 27.813 102.743 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10766,7 +10767,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 22.733 102.743 90)
+			(at 27.813 105.283 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10777,7 +10778,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 27.94 105.7148 0)
+			(at 33.02 108.2548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10788,7 +10789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 106.68 0)
+			(at 29.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10799,7 +10800,7 @@
 			)
 		)
 		(property "Description" "3V3 Reg"
-			(at 24.13 106.68 0)
+			(at 29.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10810,7 +10811,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 24.13 106.68 90)
+			(at 29.21 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10827,7 +10828,7 @@
 			(uuid "66d5c3ab-c837-4085-8363-35241ea972ba")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C9")
 					(unit 1)
@@ -10906,7 +10907,7 @@
 			(uuid "26dd6930-aba4-454a-aff4-8c377cc225ee")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR035")
 					(unit 1)
@@ -10984,7 +10985,7 @@
 			(uuid "77e0f1b7-e1f5-4479-8a3d-7c6974ff79c4")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR045")
 					(unit 1)
@@ -11069,7 +11070,7 @@
 			(uuid "82eb61d1-906d-4f41-889d-5fa1780d99e7")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J10")
 					(unit 1)
@@ -11146,7 +11147,7 @@
 			(uuid "abed052d-c141-4259-99f2-ba54e41b32c9")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR019")
 					(unit 1)
@@ -11224,7 +11225,7 @@
 			(uuid "21c1e39c-b5eb-4d24-b638-069ab74a7f3f")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR057")
 					(unit 1)
@@ -11303,7 +11304,7 @@
 			(uuid "7ca8973b-005d-4cac-9680-e85c8906731b")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR052")
 					(unit 1)
@@ -11428,7 +11429,7 @@
 			(uuid "9e37b784-7f70-4dcb-b0ef-55fd5dbaf064")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J9")
 					(unit 1)
@@ -11509,7 +11510,7 @@
 			(uuid "84f98234-973f-49c4-b751-dd05dab43cf7")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C12")
 					(unit 1)
@@ -11601,7 +11602,7 @@
 			(uuid "78b93c4d-f1a0-4995-9ae5-c1496f41b5cb")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C1")
 					(unit 1)
@@ -11680,7 +11681,7 @@
 			(uuid "b0d31f70-e625-4f08-a432-63714c4d881c")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR023")
 					(unit 1)
@@ -11759,7 +11760,7 @@
 			(uuid "6ab8b18d-17f3-4eaa-b3de-29c5d7604827")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR01")
 					(unit 1)
@@ -11769,7 +11770,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 44.45 116.84 270)
+		(at 49.53 116.84 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11780,7 +11781,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6c3b328-b993-49e2-9b8b-2cc04d9d26cf")
 		(property "Reference" "#PWR034"
-			(at 40.64 116.84 0)
+			(at 45.72 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11791,7 +11792,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 48.26 116.84 90)
+			(at 53.34 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11802,7 +11803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 116.84 0)
+			(at 49.53 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11813,7 +11814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 116.84 0)
+			(at 49.53 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11824,7 +11825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 44.45 116.84 0)
+			(at 49.53 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11838,7 +11839,7 @@
 			(uuid "2bb7ac70-a107-4017-ab51-15e14158cd6c")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR034")
 					(unit 1)
@@ -11848,7 +11849,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 29.21 116.84 90)
+		(at 34.29 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11859,7 +11860,7 @@
 		(fields_autoplaced yes)
 		(uuid "a86fcbbc-e919-421f-b30e-8dbf3e9f90df")
 		(property "Reference" "#PWR027"
-			(at 33.02 116.84 0)
+			(at 38.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11870,7 +11871,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 25.4 116.84 90)
+			(at 30.48 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11881,7 +11882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 116.84 0)
+			(at 34.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11892,7 +11893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 116.84 0)
+			(at 34.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11903,7 +11904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 116.84 0)
+			(at 34.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11917,7 +11918,7 @@
 			(uuid "3d94a29a-0acb-4ba6-ab6d-63aec540df36")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR027")
 					(unit 1)
@@ -11937,7 +11938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8c9e569-4c01-447e-a3cf-e8dfd09e3e70")
-		(property "Reference" "C16"
+		(property "Reference" "C14"
 			(at 71.501 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11999,9 +12000,9 @@
 			(uuid "9b795d26-69b1-4e27-835e-3762eea9d68e")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
-					(reference "C16")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -12084,7 +12085,7 @@
 			(uuid "93aa1e53-1745-4b86-81ce-1929dee2bdb1")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J5")
 					(unit 1)
@@ -12162,7 +12163,7 @@
 			(uuid "fc51cfbd-acee-42e9-ad0f-9280136bc3e9")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR015")
 					(unit 1)
@@ -12240,7 +12241,7 @@
 			(uuid "a4508c72-0156-4f72-a3cd-e14d779e8cf2")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR024")
 					(unit 1)
@@ -12319,7 +12320,7 @@
 			(uuid "3858c618-77e4-4b01-a851-0bb5829f9aa8")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR02")
 					(unit 1)
@@ -12398,7 +12399,7 @@
 			(uuid "34baecf0-c7b7-4c2c-a398-8d86240d5427")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR06")
 					(unit 1)
@@ -12477,7 +12478,7 @@
 			(uuid "c79021b2-c3e4-4e1a-acaf-a2ea8d738a22")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR055")
 					(unit 1)
@@ -12556,7 +12557,7 @@
 			(uuid "6f31489c-13ab-4023-a55d-74e4179c9339")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR032")
 					(unit 1)
@@ -12641,7 +12642,7 @@
 			(uuid "dea4de58-8c49-4c1e-912f-e1a53c5627d1")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J12")
 					(unit 1)
@@ -12728,7 +12729,7 @@
 			(uuid "dcba8c38-479c-4aff-b705-bf6d7f320b91")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J11")
 					(unit 1)
@@ -12820,7 +12821,7 @@
 			(uuid "890082ab-e4f9-4967-8c2f-f2faad775b99")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C2")
 					(unit 1)
@@ -12830,7 +12831,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 20.32 106.68 90)
+		(at 25.4 109.22 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12841,7 +12842,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2cc2ef7-15e0-49b5-ade7-8786966c7ebe")
 		(property "Reference" "#PWR039"
-			(at 24.13 106.68 0)
+			(at 21.59 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12852,17 +12853,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 19.05 104.14 90)
+			(at 29.21 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 106.68 0)
+			(at 25.4 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12873,7 +12875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 106.68 0)
+			(at 25.4 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12884,7 +12886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 20.32 106.68 0)
+			(at 25.4 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12898,7 +12900,7 @@
 			(uuid "a88c2dcf-0550-4cb9-8fb1-33967d995471")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR039")
 					(unit 1)
@@ -12977,7 +12979,7 @@
 			(uuid "658e0c1b-6358-4dc5-a840-f05c0f1a6044")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR08")
 					(unit 1)
@@ -12997,7 +12999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d401d3b9-eb60-4efc-9108-c646ba572618")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 214.63 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13059,9 +13061,9 @@
 			(uuid "728acbe3-0058-42bc-9efe-ac50c05184c2")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13137,7 +13139,7 @@
 			(uuid "3781570c-7321-4b72-9455-cd4c0884bc8f")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR09")
 					(unit 1)
@@ -13336,7 +13338,7 @@
 			(uuid "2374d1b8-f38e-44a1-a2f8-131bb7c34248")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "U1")
 					(unit 1)
@@ -13415,7 +13417,7 @@
 			(uuid "b4145bd8-8a90-42e2-901f-ca8bfd71cd49")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR016")
 					(unit 1)
@@ -13509,7 +13511,7 @@
 			(uuid "870d2965-8133-492e-8419-f972cab14dea")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J2")
 					(unit 1)
@@ -13588,7 +13590,7 @@
 			(uuid "16853d0e-ab65-458f-afa9-ca96800cbd77")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR010")
 					(unit 1)
@@ -13668,7 +13670,7 @@
 			(uuid "498fc04b-3b74-458f-9cd1-71ec22ca05b6")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C3")
 					(unit 1)
@@ -13750,7 +13752,7 @@
 			(uuid "32330708-d93d-49fc-9983-422b80d4e2ef")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C15")
 					(unit 1)
@@ -13828,7 +13830,7 @@
 			(uuid "6a848531-ee50-4ce5-ab83-7aeed052767f")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#FLG04")
 					(unit 1)
@@ -13906,7 +13908,7 @@
 			(uuid "691fe0cc-6cd4-4d60-964e-929dbf80538e")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR018")
 					(unit 1)
@@ -13989,7 +13991,7 @@
 			(uuid "b832014e-8968-41e7-ab2e-8e5519bf411e")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "J1")
 					(unit 1)
@@ -14071,7 +14073,7 @@
 			(uuid "d3184a4b-5ee3-4ebf-b88b-1ad94a008ab8")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R3")
 					(unit 1)
@@ -14150,7 +14152,7 @@
 			(uuid "a6a4a9a6-5620-4987-8327-48a86e706155")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR048")
 					(unit 1)
@@ -14232,7 +14234,7 @@
 			(uuid "3ebf4d60-379c-459c-a8d0-80464c7bb427")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C13")
 					(unit 1)
@@ -14242,7 +14244,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 106.68 270)
+		(at 50.8 109.22 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14252,7 +14254,7 @@
 		(dnp no)
 		(uuid "ef158c5c-fb08-4f8f-a31e-eac7a86e8c7a")
 		(property "Reference" "#PWR012"
-			(at 39.37 106.68 0)
+			(at 44.45 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14263,7 +14265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 106.68 90)
+			(at 45.72 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14273,7 +14275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 106.68 0)
+			(at 50.8 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14284,7 +14286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 106.68 0)
+			(at 50.8 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14295,7 +14297,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 106.68 0)
+			(at 50.8 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14309,7 +14311,7 @@
 			(uuid "67815ecb-47e5-44c7-a8b2-94c5727320ee")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR012")
 					(unit 1)
@@ -14399,7 +14401,7 @@
 			(uuid "649ba60b-7993-4c5e-a768-8cc6835260f1")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "C5")
 					(unit 1)
@@ -14478,7 +14480,7 @@
 			(uuid "97ab97af-2747-40ee-a789-617e05b9fd20")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR025")
 					(unit 1)
@@ -14556,7 +14558,7 @@
 			(uuid "ee49be57-e3e3-4a4f-afba-5e41713692ac")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR04")
 					(unit 1)
@@ -14635,7 +14637,7 @@
 			(uuid "6740d0fd-f91b-4476-88b9-11248e987b6b")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR022")
 					(unit 1)
@@ -14715,7 +14717,7 @@
 			(uuid "fee0bd79-b96c-4e3a-b6e5-61063af0f59f")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "F1")
 					(unit 1)
@@ -14797,7 +14799,7 @@
 			(uuid "0093ef85-cd9b-466d-bd57-9372b58f37b9")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "R8")
 					(unit 1)
@@ -14874,7 +14876,7 @@
 			(uuid "47da5de9-fc0d-4b45-a48a-88bce3b309fa")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR014")
 					(unit 1)
@@ -14952,7 +14954,7 @@
 			(uuid "3d15db3e-8e2f-437c-b5a2-d3bb1360fe97")
 		)
 		(instances
-			(project "Main"
+			(project "Goob"
 				(path "/7e26015a-4e17-4699-9192-05965a8144b2"
 					(reference "#PWR028")
 					(unit 1)
